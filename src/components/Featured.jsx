@@ -51,7 +51,7 @@ const Featured = () => {
   };
 
   return (
-    <div className="w-full py-10 px-20 bg-zinc-900">
+    <div data-scroll data-scroll-section data-scroll-speed='0.2' className="w-full py-10 px-20 bg-zinc-900">
       <div className="w-full py-10 border-b-[1px] border-zinc-700">
         <h1 className="font-['Neue_Montreal'] text-[3vw] tracking-tight">
           Featured projects

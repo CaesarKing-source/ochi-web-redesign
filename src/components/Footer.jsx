@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const Footer = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 p-20 flex justify-between">
+    <div data-scroll data-scroll-section data-scroll-speed='0.2' className="w-full h-screen bg-zinc-900 p-20 flex justify-between">
         <div className="w-1/2 h-full flex flex-col justify-between">
             <motion.div initial={{ opacity: 0, y: "100px" }} whileInView={{ opacity: 1, y: "0" }}
             transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="footer-heading">

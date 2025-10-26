@@ -18,7 +18,6 @@ const Eyes = () => {
 
   return (
     <div className='eyes w-full h-screen overflow-hidden'>
-
         <div data-scroll data-scroll-speed="-0.7" className='relative w-full h-screen bg-cover bg-center bg-[url("assets/eyesBackground.jpg")]'>
             <div className="w-1/3 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10">
                 <div className='w-[15vw] h-[15vw] flex justify-center items-center bg-white rounded-full'>
