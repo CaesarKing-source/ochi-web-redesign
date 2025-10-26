@@ -1,0 +1,8 @@
+export { default as Navbar } from './Navbar'
+export { default as LandingPage } from './LandingPage'
+export { default as Marquee } from './Marquee'
+export { default as About } from './About'
+export { default as Eyes } from './Eyes'
+export { default as Featured } from './Featured'
+export { default as Cards } from './Cards'
+export { default as Footer } from './Footer'
