@@ -12,7 +12,6 @@ const Eyes = () => {
 
         var angle = Math.atan2(deltaX, deltaY) * (180/Math.PI);
         setRotate(180 - angle);
-        console.log(angle, rotate)
     })
   })
 

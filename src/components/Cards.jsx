@@ -9,7 +9,7 @@ const Cards = () => {
             <div className="card w-full h-full relative rounded-2xl bg-[#004D43] flex justify-center items-center">
                 <img className='w-32' src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg" alt="card-img"/>
                 <button className="absolute px-5 py-1 border-2 border-[#CDEA68] rounded-full left-10 bottom-10">
-                    <span className='text-[#CDEA68]'>2019-2022</span>
+                    <span className='text-[#CDEA68]'>2019-2025</span>
                 </button>
 
             </div>
@@ -19,13 +19,13 @@ const Cards = () => {
             <motion.div drag dragConstraints={reference} className="card w-1/2 rounded-2xl bg-[#0f1816] relative flex justify-center items-center">
                 <img className='w-32' src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="card-img"/>
                 <button className="absolute px-5 py-1 border-2 rounded-full left-10 bottom-10">
-                    <span>2019-2022</span>
+                    <span>RATING 5.0 ON CLUTCH</span>
                 </button>
             </motion.div>
             <motion.div drag className="card w-1/2 rounded-2xl bg-[#212121] relative flex justify-center items-center">
                 <img className='w-32' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="card-img"/>
                 <button className="absolute px-5 py-1 border-2 rounded-full left-10 bottom-10">
-                    <span>2019-2022</span>
+                    <span>BUSINESS BOOTCAMP</span>
                 </button>
             </motion.div>
         </div>
